@@ -1,8 +1,9 @@
 import Head from "next/head";
 
 import Layout from "../components/layout/layout";
-
 import BotListCard from "../components/botlist/botlistcard";
+
+import Logo from "../public/images/logo.png";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="py-8 lg:px-64 md:px-32 px-10">
           <div className="grid lg:grid-cols-4 grid-cols-2 gap-6">
             <div className="col-span-1 py-2">
-              <BotListCard name="Bots" />
+            <BotListCard title="Bots" text="fdg" link="/"/>
             </div>
           </div>
         </div>

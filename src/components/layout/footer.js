@@ -10,9 +10,9 @@ export default function Footer() {
                 <div className="grid lg:grid-cols-4 grid-cols-2 gap-6">
                     <div className="col-span-1 py-2">
                         <p className="text-discordblue font-delagothicone pb-1">Lists</p>
-                        <FooterExternItem name="Bots" link="https://dsc.gg/herukanbot" />
-                        <FooterInternItem name="Servers" link="/pricing" />
-                        <FooterExternItem name="Templates" link="https://herukan.instatus.com" />
+                        <FooterExternItem name="Bots" link="/bots" />
+                        <FooterInternItem name="Servers" link="/servers" />
+                        <FooterExternItem name="Templates" link="/templates" />
                     </div>
                     <div className="col-span-1 py-2">
                         <p className="text-discordblue font-delagothicone pb-1">Socialmedia</p>
@@ -22,8 +22,8 @@ export default function Footer() {
                         <FooterExternItem name="Discord" link="https://dsc.gg/herukan" />
                     </div>
                     <div className="col-span-2 py-2">
-                        <p className="font-delagothicone text-discordblue text-xl"><Link href="/"><a>Kilian Hauber</a></Link></p>
-                        <p className="text-sm text-gray-400 pt-2">Copyright © 2021 <Link href="/"><a>Kilian Hauber</a></Link>, <a target="_blank" rel="noreferrer" href="https://zyonicsoftware.com">Zyonic Software</a>. Alle Rechte vorbehalten.</p>
+                        <p className="font-delagothicone text-discordblue text-xl"><Link href="https://kilihbr.github.io"><a>Kilian Hauber</a></Link></p>
+                        <p className="text-sm text-gray-400 pt-2">Copyright © 2021 <Link href="https://kilihbr.github.io"><a>Kilian Hauber</a></Link>. Alle Rechte vorbehalten.</p>
                         <p className="text-sm text-gray-400 pt-2">
                             <svg className="inline-block h-6 pr-2" id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                                 <g id="color">
