@@ -2,6 +2,8 @@ import Head from "next/head";
 
 import Layout from "../components/layout/layout";
 
+import BotListCard from "../components/botlist/botlistcard";
+
 export default function Home() {
   return (
     <>
@@ -10,7 +12,15 @@ export default function Home() {
       </Head>
 
       <Layout>
-        ojpädsf
+
+        <div className="py-8 lg:px-64 md:px-32 px-10">
+          <div className="grid lg:grid-cols-4 grid-cols-2 gap-6">
+            <div className="col-span-1 py-2">
+              <BotListCard name="Bots" />
+            </div>
+          </div>
+        </div>
+
       </Layout>
     </>
   )
