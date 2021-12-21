@@ -1,7 +1,17 @@
+import Head from "next/head";
+
+import Layout from "../components/layout/layout";
+
 export default function Home() {
   return (
+    <>
+      <Head>
+        <title>Discord List | Eine Discord Bot, Server, Template Liste von Kilian Hauber</title>
+      </Head>
 
-    <h1 className="text-3xl font-bold underline text-cyan-500" aos="fade-up">Hello world!</h1>
-
+      <Layout>
+        ojpädsf
+      </Layout>
+    </>
   )
 }
