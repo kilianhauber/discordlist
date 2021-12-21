@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
                     <div className="col-span-2 py-2">
                         <p className="font-delagothicone text-discordblue text-xl"><Link href="/"><a>Kilian Hauber</a></Link></p>
-                        <p className="text-sm text-gray-400 pt-2">Copyright © 2021 <Link href="/"><a>Kilian Hauber</a></Link>, <a target="_blank" href="https://zyonicsoftware.com">Zyonic Software</a>. Alle Rechte vorbehalten.</p>
+                        <p className="text-sm text-gray-400 pt-2">Copyright © 2021 <Link href="/"><a>Kilian Hauber</a></Link>, <a target="_blank" rel="noreferrer" href="https://zyonicsoftware.com">Zyonic Software</a>. Alle Rechte vorbehalten.</p>
                         <p className="text-sm text-gray-400 pt-2">
                             <svg className="inline-block h-6 pr-2" id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
                                 <g id="color">
