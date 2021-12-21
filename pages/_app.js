@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="google-site-verification" content="" />
+      <meta name="google-site-verification" content="oBBIMFWApUZ3BcN2IAf42CUJU94PjCrceLQUuiH-d6M" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
       <meta name="theme-color" content="#25294A" />
       <meta name="description" content="dsfghj" />
