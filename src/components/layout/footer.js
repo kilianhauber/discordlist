@@ -10,9 +10,9 @@ export default function Footer() {
                 <div className="grid lg:grid-cols-4 grid-cols-2 gap-6">
                     <div className="col-span-1 py-2">
                         <p className="text-discordblue font-delagothicone pb-1">Lists</p>
-                        <FooterExternItem name="Bots" link="/bots" />
+                        <FooterInternItem name="Bots" link="/bots" />
                         <FooterInternItem name="Servers" link="/servers" />
-                        <FooterExternItem name="Templates" link="/templates" />
+                        <FooterInternItem name="Templates" link="/templates" />
                     </div>
                     <div className="col-span-1 py-2">
                         <p className="text-discordblue font-delagothicone pb-1">Socialmedia</p>
